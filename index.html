@@ -1,252 +1,276 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <link rel="stylesheet" href="src/style.css">
   </head>
   <body>
-    <div>
-      <div id="header">
-        <div id="logo">
-          <div id="head">
-            <div>
-              <img src="./src/images/SSA logo.png" alt="SSA Logo" width="100" height="100">
-            </div>
-            <div id="title">
-              <h1>SMART SHOPPING ASSISTANT</h1>
-            </div>
+    <div id="header">
+      <div id="logo">
+        <div id="head">
+          <div>
+            <img
+              src="./src/images/SSA logo.png"
+              alt="SSA Logo"
+              width="100"
+              height="100"
+            />
           </div>
-        </div>
-    
-        <div id="menu">
-          <nav>
-            <a href="#home">HOME</a>
-            <a href="#features">FEATURES</a>
-            <a href="#products">PRODUCTS</a>
-            <a href="#demo">DEMO</a>
-            <a href="#why-us">WHY US</a>
-            <a href="#contact">CONTACT</a>
-          </nav>
-        </div>
-      </div>
-    
-    
-      <div class="hero" id="home">
-        <div id="intro">
-          <div id="ai_img">
-            <img src="./src/images/SSA Ai image.png" alt="ai image">
-          </div>
-          <div id="tag_div">
-            <p id="tag">Voice-based product finder with real-time recommendations</p>
-            <p id="mini_tag">Find the Best Deals with Just Your Voice</p>
-            <p id="how_to_use">Say the name of any electronic product, and let us search, analyze and suggest the best
-              options for you from
-              Flipkart.</p>
-            <a href="#demo" class="button">Try the Assistant</a>
+          <div id="title">
+            <h1>SMART SHOPPING ASSISTANT</h1>
           </div>
         </div>
       </div>
-    
-      <div class="section" id="features">
-        <h2>Features</h2>
-        <div class="features">
-          <div class="box">
-            <h3>&#127908;Voice Input</h3>
-            <p>Search for products just by speaking. No typing needed!</p>
-          </div>
-          <div class="box">
-            <h3>&#128200; Price Clustering</h3>
-            <p>We also identify the most affordable product options.</p>
-          </div>
-          <div class="box">
-            <h3>&#128249; Product Images</h3>
-            <p>See real product images along with price and rating in a table format.</p>
-          </div>
-          <div class="box">
-            <h3>&#x1F4AC; Conversational Product Search</h3>
-            <p>Search through price. <br> Example: Mobiles under 20000.</p>
-          </div>
-          <div class="box">
-            <h3>&#x1F399;&#xFE0F;Results in voice</h3>
-            <p>Explore the results in voice format which makes more interactive.</p>
-          </div>
+
+      <div id="menu">
+        <nav>
+          <a href="#home">HOME</a>
+          <a href="#features">FEATURES</a>
+          <a href="#products">PRODUCTS</a>
+          <a href="#demo">DEMO</a>
+          <a href="#why-us">WHY US</a>
+          <a href="#contact">CONTACT</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="hero" id="home">
+      <div id="intro">
+        <div id="ai_img">
+          <img src="./src/images/SSA Ai image.png" alt="ai image" />
+        </div>
+        <div id="tag_div">
+          <p id="tag">
+            Voice-based product finder with real-time recommendations
+          </p>
+          <p id="mini_tag">Find the Best Deals with Just Your Voice</p>
+          <p id="how_to_use">
+            Say the name of any electronic product, and let us search, analyze
+            and suggest the best options for you from Flipkart.
+          </p>
+          <a href="#demo" class="button">Try the Assistant</a>
         </div>
       </div>
-    
-      <hr>
-    
-      <div class="section" id="products">
-        <h2>Some Products That Our Assistant Will Analyze</h2>
-        <div class="products">
-          <div class="box">
-            <h3>Mobile phone</h3>
-            <img src="./src/images/mobile img.jpg" alt="Mobile img">
-          </div>
-          <div class="box">
-            <h3>MacBook</h3>
-            <img src="./src/images/macbook.jpg  " alt="MacBook img">
-          </div>
-          <div class="box">
-            <h3>Tablet</h3>
-            <img src="./src/images/tablets.jpg" alt="Tablet img">
-          </div>
-          <div class="box">
-            <h3>Gaming monitor</h3>
-            <img src="./src/images/gaming monitor.jpeg" alt="Gaming monitor img">
-          </div>
-          <div class="box">
-            <h3>Apple iPhone</h3>
-            <img src="./src/images/iPhone.jpeg" alt="Apple iPhone img">
-          </div>
-          <div class="box">
-            <h3>Laptop</h3>
-            <img src="./src/images/laptop.jpg" alt="Laptop img">
-          </div>
-          <div class="box">
-            <h3>Television</h3>
-            <img src="./src/images/television.jpg" alt="Television img">
-          </div>
-          <div class="box">
-            <h3>Refridgerator</h3>
-            <img src="./src/images/fridge.jpeg" alt="Refridgerator img">
-          </div>
-          <div class="box">
-            <h3>Washing machine</h3>
-            <img src="./src/images/washing machine.png" alt="Washing machine img">
-          </div>
-          <div class="box">
-            <h3>Air Conditioner</h3>
-            <img src="./src/images/air conditioner.jpg" alt="Air conditioner img">
-          </div>
-          <div class="box">
-            <h3>Drone</h3>
-            <img src="./src/images/drone.jpg" alt="Drone img">
-          </div>
-          <div class="box">
-            <h3>Camera</h3>
-            <img src="./src/images/dslr camera.jpg" alt="Camera img">
-          </div>
-          <div class="box">
-            <h3>Water geysar</h3>
-            <img src="./src/images/water geysar.jpg" alt="Water geysar img">
-          </div>
-          <div class="box">
-            <h3>Freezer</h3>
-            <img src="./src/images/freezer.jpg" alt="Freezer img">
-          </div>
-          <div class="box">
-            <h3>Robotic floor cleaner</h3>
-            <img src="./src/images/robotic floor cleaner.jpg" alt="Robotic floor cleaner img">
-          </div>
-          <div class="box">
-            <h3>Water purifier</h3>
-            <img src="./src/images/water purifier.jpg" alt="Water purifier img">
-          </div>
-          <div class="box">
-            <h3>Air purifier</h3>
-            <img src="./src/images/air purifier.jpg" alt="Air purifier img">
-          </div>
-          <div class="box">
-            <h3>Vaccum cleaner</h3>
-            <img src="./src/images/vaccum cleaner.jpeg" alt="Vaccum cleaner img">
-          </div>
-          <div class="box">
-            <h3>Wifi Router</h3>
-            <img src="./src/images/wifi router.jpg" alt="Wifi router img">
-          </div>
-          <div class="box">
-            <h3>Food Processor</h3>
-            <img src="./src/images/food processor.jpeg" alt="Food proccessor img">
-          </div>
-          <div class="box">
-            <h3>Microwave oven</h3>
-            <img src="./src/images/microwave.jpg" alt="Microwave oven img">
-          </div>
-          <div class="box">
-            <h3>External hard drives</h3>
-            <img src="./src/images/air purifier.jpg" alt="External hard drives img">
-          </div>
-          <div class="box">
-            <h3>Stabilizer</h3>
-            <img src="./src/images/stabilizer.jpg" alt="Stabilizer img">
-          </div>
-          <div class="box">
-            <h3>Grinder</h3>
-            <img src="./src/images/grinder.jpg" alt="Grinder img">
-          </div>
-          <div class="box">
-            <h3>Ceiling fan</h3>
-            <img src="./src/images/ceiling fan.jpg" alt="Ceiling fan img">
-          </div>
+    </div>
+
+    <div class="section" id="features">
+      <h2>Features</h2>
+      <div class="features">
+        <div class="box">
+          <h3>&#127908;Voice Input</h3>
+          <p>Search for products just by speaking. No typing needed!</p>
+        </div>
+        <div class="box">
+          <h3>&#128200; Price Clustering</h3>
+          <p>We also identify the most affordable product options.</p>
+        </div>
+        <div class="box">
+          <h3>&#128249; Product Images</h3>
+          <p>
+            See real product images along with price and rating in a table
+            format.
+          </p>
+        </div>
+        <div class="box">
+          <h3>&#x1F4AC; Conversational Product Search</h3>
+          <p>
+            Search through price. <br />
+            Example: Mobiles under 20000.
+          </p>
+        </div>
+        <div class="box">
+          <h3>&#x1F399;&#xFE0F;Results in voice</h3>
+          <p>
+            Explore the results in voice format which makes more interactive.
+          </p>
         </div>
       </div>
-    
-      <hr>
-    
-      <div class="section" id="demo">
-        <h2>Live Demo</h2>
-        <div id="demo_video">
-    
+    </div>
+
+    <hr />
+
+    <div class="section" id="products">
+      <h2>Some Products That Our Assistant Will Analyze</h2>
+      <div class="products">
+        <div class="box">
+          <h3>Mobile phone</h3>
+          <img src="./src/images/mobile img.jpg" alt="Mobile img" />
         </div>
-    
-        <p>Click the button below to activate the voice assistant.</p>
-    
-        <form action="/start" method="post" >
-          <button class="demo_button" type="submit" href="/start" >
-            <py-script src="ssa.py"></py-script>
-            Start Assistant</button>
-        </form>
-      </div>
-    
-    
-      <div class="section" id="why-us">
-        <h2>Why Choose Us?</h2>
-        <div class="why-us">
-          <div class="box">
-            <h3>&#129504;Smart Comparison</h3>
-            <p>Our AI assistant finds affordable products and shows the top-rated option.</p>
-          </div>
-          <div class="box">
-            <h3>&#128640; Fast Results</h3>
-            <p>Within seconds, you'll have a clear comparison of the best deals.</p>
-          </div>
-          <div class="box">
-            <h3>&#10004; Easy to Use</h3>
-            <p>Simple voice interface built with beginner-friendly tech stack.</p>
-          </div>
+        <div class="box">
+          <h3>MacBook</h3>
+          <img src="./src/images/macbook.jpg  " alt="MacBook img" />
+        </div>
+        <div class="box">
+          <h3>Tablet</h3>
+          <img src="./src/images/tablets.jpg" alt="Tablet img" />
+        </div>
+        <div class="box">
+          <h3>Gaming monitor</h3>
+          <img src="./src/images/gaming monitor.jpeg" alt="Gaming monitor img" />
+        </div>
+        <div class="box">
+          <h3>Apple iPhone</h3>
+          <img src="./src/images/iPhone.jpeg" alt="Apple iPhone img" />
+        </div>
+        <div class="box">
+          <h3>Laptop</h3>
+          <img src="./src/images/laptop.jpg" alt="Laptop img" />
+        </div>
+        <div class="box">
+          <h3>Television</h3>
+          <img src="./src/images/television.jpg" alt="Television img" />
+        </div>
+        <div class="box">
+          <h3>Refridgerator</h3>
+          <img src="./src/images/fridge.jpeg" alt="Refridgerator img" />
+        </div>
+        <div class="box">
+          <h3>Washing machine</h3>
+          <img src="./src/images/washing machine.png" alt="Washing machine img" />
+        </div>
+        <div class="box">
+          <h3>Air Conditioner</h3>
+          <img src="./src/images/air conditioner.jpg" alt="Air conditioner img" />
+        </div>
+        <div class="box">
+          <h3>Drone</h3>
+          <img src="./src/images/drone.jpg" alt="Drone img" />
+        </div>
+        <div class="box">
+          <h3>Camera</h3>
+          <img src="./src/images/dslr camera.jpg" alt="Camera img" />
+        </div>
+        <div class="box">
+          <h3>Water geysar</h3>
+          <img src="./src/images/water geysar.jpg" alt="Water geysar img" />
+        </div>
+        <div class="box">
+          <h3>Freezer</h3>
+          <img src="./src/images/freezer.jpg" alt="Freezer img" />
+        </div>
+        <div class="box">
+          <h3>Robotic floor cleaner</h3>
+          <img
+            src="./src/images/robotic floor cleaner.jpg"
+            alt="Robotic floor cleaner img"
+          />
+        </div>
+        <div class="box">
+          <h3>Water purifier</h3>
+          <img src="./src/images/water purifier.jpg" alt="Water purifier img" />
+        </div>
+        <div class="box">
+          <h3>Air purifier</h3>
+          <img src="./src/images/air purifier.jpg" alt="Air purifier img" />
+        </div>
+        <div class="box">
+          <h3>Vaccum cleaner</h3>
+          <img src="./src/images/vaccum cleaner.jpeg" alt="Vaccum cleaner img" />
+        </div>
+        <div class="box">
+          <h3>Wifi Router</h3>
+          <img src="./src/images/wifi router.jpg" alt="Wifi router img" />
+        </div>
+        <div class="box">
+          <h3>Food Processor</h3>
+          <img src="./src/images/food processor.jpeg" alt="Food proccessor img" />
+        </div>
+        <div class="box">
+          <h3>Microwave oven</h3>
+          <img src="./src/images/microwave.jpg" alt="Microwave oven img" />
+        </div>
+        <div class="box">
+          <h3>External hard drives</h3>
+          <img src="./src/images/air purifier.jpg" alt="External hard drives img" />
+        </div>
+        <div class="box">
+          <h3>Stabilizer</h3>
+          <img src="./src/images/stabilizer.jpg" alt="Stabilizer img" />
+        </div>
+        <div class="box">
+          <h3>Grinder</h3>
+          <img src="./src/images/grinder.jpg" alt="Grinder img" />
+        </div>
+        <div class="box">
+          <h3>Ceiling fan</h3>
+          <img src="./src/images/ceiling fan.jpg" alt="Ceiling fan img" />
         </div>
       </div>
-      <div class="section2">
-        <h2>What Users Say</h2>
-        <div class="testimonials">
-          <div class="box testimonial-box">
-            “This is like having a personal shopping expert! It’s fast and accurate.”
-            <p>- Arjun S., College Student</p>
-          </div>
-          <div class="box testimonial-box">
-            “Loved how simple and smart it is. Just spoke the product name and done!”
-            <p>- Priya M., Tech Enthusiast</p>
-          </div>
+    </div>
+
+    <hr />
+
+    <div class="section" id="demo">
+      <h2>Live Demo</h2>
+      <div id="demo_video"></div>
+
+      <p>Click the button below to activate the voice assistant.</p>
+
+      <form action="/start" method="post">
+        <button class="demo_button" type="submit" href="/start">
+          <py-script src></py-script>
+          Start Assistant
+        </button>
+      </form>
+    </div>
+
+    <div class="section" id="why-us">
+      <h2>Why Choose Us?</h2>
+      <div class="why-us">
+        <div class="box">
+          <h3>&#129504;Smart Comparison</h3>
+          <p>
+            Our AI assistant finds affordable products and shows the top-rated
+            option.
+          </p>
+        </div>
+        <div class="box">
+          <h3>&#128640; Fast Results</h3>
+          <p>
+            Within seconds, you'll have a clear comparison of the best deals.
+          </p>
+        </div>
+        <div class="box">
+          <h3>&#10004; Easy to Use</h3>
+          <p>Simple voice interface built with beginner-friendly tech stack.</p>
         </div>
       </div>
-    
-      <hr>
-    
-        <div class="contact_section" id="contact">
-          <h2>Contact Us</h2>
-          <p>If you need any help, feedback, or collaboration, feel free to reach out.</p>
-          <div class="contact-info">
-            📧 Email: support@smartshop.com<br>
-            ☎️ Phone: +91 97901 15943
-          </div>
+    </div>
+    <div class="section2">
+      <h2>What Users Say</h2>
+      <div class="testimonials">
+        <div class="box testimonial-box">
+          “This is like having a personal shopping expert! It’s fast and
+          accurate.”
         </div>
-    
-        <footer>
-          <p>&copy; 2025 Smart Shopping Assistant | Created with ♥ for Smart Shoppers</p>
-        </footer>
+        <div class="box testimonial-box">
+          “Loved how simple and smart it is. Just spoke the product name and
+          done!”
+        </div>
       </div>
-    <script type="module" src="/src/main.js"></script>
+    </div>
+
+    <hr />
+
+    <div class="contact_section" id="contact">
+      <h2>Contact Us</h2>
+      <p>
+        If you need any help, feedback, or collaboration, feel free to reach
+        out.
+      </p>
+      <div class="contact-info">
+        📧 Email: support@smartshop.com<br />
+        ☎️ Phone: +91 97901 15943
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        &copy; 2025 Smart Shopping Assistant | Created with ♥ for Smart Shoppers
+      </p>
+    </footer>
   </body>
 </html>
